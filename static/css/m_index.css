@@ -1,0 +1,3747 @@
+@media (max-width:590px) {
+
+
+    .index {
+
+        /* background-image: url(../images/black-audi0.jpg); */
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+
+
+    }
+
+    /* code for navigation buttons */
+    header {
+
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        background-color: white;
+
+
+
+        .navigation {
+            right: 0px;
+            position: absolute;
+            display: flex;
+            justify-content: space-evenly;
+            margin-right: 25px;
+
+            div {
+
+                margin-top: 20px;
+                margin-left: 40px;
+                margin-right: 20px;
+                height: 40px;
+                /* width: 80px; */
+                /* background-color: black; */
+
+
+                button {
+                    padding-top: 2px;
+                    width: 20px;
+                    height: 35px;
+
+                    background-color: transparent;
+                    /* Used for removing background for the button*/
+                    border: none;
+                    color: rgb(13, 13, 13);
+                    font-size: 9px;
+                    font-family: sans-serif;
+                    font-weight: bold;
+
+                }
+
+            }
+
+
+            button:hover {
+
+                width: 100%;
+                border-top: 0.10px rgb(12, 12, 12) solid;
+                border-bottom: 0.10px rgb(13, 13, 13) solid;
+                /* background-color: black; */
+                transition-duration: 0.10ms;
+
+
+
+            }
+
+            #d:hover {
+
+                background-color: rgb(14, 13, 9);
+                border: 1px solid;
+                color: white;
+
+                /* width: 16px; */
+                height: 35px;
+            }
+
+        }
+
+    }
+
+    .index-main {
+        background-image: url(../images/futuristic-car-illustration-verticle-background.jpg);
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+
+
+
+
+        h2 {
+            padding-top: 160px;
+            padding-left: 90px;
+
+
+
+
+            .brand {
+                color: transparent;
+                font-size: 2.40em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: bold;
+                padding-left: 10px;
+
+            }
+
+            .caption-line {
+
+                color: transparent;
+                font-size: 14px;
+                padding-top: 5px;
+
+
+            }
+
+            .caption-inline {
+
+                display: flex;
+                width: 100px;
+                justify-content: space-evenly;
+                padding-top: 10px;
+
+
+            }
+
+        }
+
+
+
+    }
+
+    .home-buttons {
+
+
+        margin-top: 30px;
+
+        div {
+
+            width: 300px;
+            display: flex;
+            justify-content: space-around;
+
+            button {
+
+                width: 140px;
+                height: 40px;
+                font-size: 12px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+        }
+
+    }
+
+    /* Code for home page footer */
+
+    footer {
+        margin: 40px;
+        border: 1px solid;
+
+        h1 {
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            font-weight: bold;
+
+            height: 100px;
+            padding-top: 20px;
+
+
+            small {
+
+                font-size: 6px;
+            }
+        }
+
+
+        article {
+
+            margin: 30px;
+            margin-top: -2px;
+            /* border-bottom: 1px solid;
+            border-right: 1px solid;
+            border-left: 1px solid; */
+
+
+            h2 {
+
+                font-size: 1em;
+                font-weight: bold;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+
+            .c-video {
+
+                width: 100%;
+                height: 400px;
+
+                video {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+
+            p {
+
+                font-size: 10px;
+                padding-top: 5px;
+                /* font-style: italic; */
+                padding-left: 5px;
+
+            }
+
+            ul {
+                font-size: 10px;
+                font-style: italic;
+                padding-top: 10px;
+            }
+
+
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .Login-body {
+
+        /* background-image: url(../images/Login_background.jpg); */
+        /* background-color:  rgb(174, 158, 156); */
+        background-image: url(../images/pexels-mayday-1545743.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+
+        /* Code for login form */
+
+        section {
+
+            width: 340px;
+            height: 500px;
+            margin-top: 60px;
+
+            .Login-division {
+
+                margin-left: 20px;
+                position: relative;
+
+
+
+                .profile {
+
+                    width: 40px;
+                    margin-top: 30px;
+                    height: 40px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    position: absolute;
+                    top: 0;
+                    margin-left: 100px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+
+
+
+                }
+
+
+
+                .blank {
+
+                    width: 280px;
+                    height: 30px;
+                    border-radius: 2em;
+                    border: 1px solid;
+                    font-size: 9px;
+                    margin-left: 0px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+                }
+
+                .submit {
+
+                    width: 260px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 10px;
+
+
+                    button {
+
+                        width: 120px;
+                        height: 40px;
+                        font-size: 10px;
+                        border-radius: 60px;
+                        background-color: white;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    }
+
+
+                    #Login-button:hover {
+
+                        background-color: rgb(54, 54, 68);
+                        color: white;
+
+                    }
+
+                    #Register-button:hover {
+
+                        background-color: rgb(92, 118, 125);
+                        color: white;
+
+                    }
+
+                }
+
+
+
+            }
+
+        }
+    }
+
+
+
+
+
+}
+
+
+
+@media (max-width:892px) {
+    .index {
+
+        /* background-image: url(../images/lamborgini-racing.jpg); */
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+
+
+    }
+
+    /* code for navigation buttons */
+    header {
+
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        background-color: white;
+
+
+
+        .navigation {
+            right: 0px;
+            position: absolute;
+            display: flex;
+            justify-content: space-evenly;
+            margin-right: 25px;
+
+            div {
+
+                margin-top: 20px;
+                margin-left: 40px;
+                margin-right: 20px;
+                height: 40px;
+                /* width: 80px; */
+
+
+                button {
+                    padding-top: 2px;
+                    width: 20px;
+                    height: 35px;
+
+                    background-color: transparent;
+                    /* Used for removing background for the button*/
+                    border: none;
+                    color: rgb(13, 13, 13);
+                    font-size: 10px;
+                    font-family: sans-serif;
+                    font-weight: bold;
+
+                }
+
+            }
+
+
+            button:hover {
+
+                width: 100%;
+                border-top: 0.10px rgb(12, 12, 12) solid;
+                border-bottom: 0.10px rgb(13, 13, 13) solid;
+                /* background-color: black; */
+                transition-duration: 0.10ms;
+
+
+
+            }
+
+            #d:hover {
+
+                background-color: rgb(14, 13, 9);
+                border: 1px solid;
+                color: white;
+
+                width: 16px;
+                height: 35px;
+            }
+
+        }
+
+    }
+
+    .index-main {
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; */
+        /* margin: auto; */
+
+
+
+        h2 {
+            padding-top: 160px;
+            padding-left: 50px;
+
+
+
+
+            .brand {
+                color: transparent;
+                font-size: 2.40em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: bold;
+
+            }
+
+            .caption-line {
+
+                color: transparent;
+                font-size: 14px;
+                padding-top: 5px;
+
+
+            }
+
+            .caption-inline {
+
+                display: flex;
+                width: 100px;
+                justify-content: space-evenly;
+                padding-top: 10px;
+
+
+            }
+
+        }
+
+
+
+    }
+
+    .home-buttons {
+
+
+        margin-top: 30px;
+
+        div {
+
+            width: 300px;
+            display: flex;
+            justify-content: space-around;
+
+            button {
+
+                width: 140px;
+                height: 40px;
+                font-size: 12px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+        }
+
+    }
+
+    /* -----------Code for desk----------- */
+
+    .desk {
+
+
+
+        .desk-header {
+
+            background-color: white;
+            /* background-image:url(../images/pexels-hikaique-242125.jpg); */
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 90px;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            border-bottom: 0.10px solid;
+            display: flex;
+            justify-content: space-around;
+
+
+            a {
+
+                text-decoration: none;
+                color: black
+            }
+
+            .Logo {
+                font-family: sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+                margin-left: 0px;
+            }
+
+
+            nav {
+
+                /* width: ; */
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                /* margin-top: 70px; */
+                /* padding-top: 20px; */
+
+                .desk-button {
+
+                    background-color: transparent;
+                    border: none;
+                    /* width: 30px; */
+                    font-size: 8px;
+                    height: 30px;
+                    /* font-weight: bolder; */
+                    margin-left: -10px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+                }
+
+
+                .desk-button:hover {
+
+                    border-top: 1px solid;
+                    border-bottom: 1px solid;
+                    background-color: black;
+                    color: white;
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .desc-main {
+
+        margin-top: 0px;
+
+
+        /* code for desc carousel */
+
+
+        .desc-carousel {
+
+            width: 100%;
+            /* height: 720px; */
+            overflow: hidden;
+
+
+
+            .carousel-inner {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+    }
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -320px;
+
+        /* margin: auto; */
+        /* width: 360px; */
+        /* margin-left: 150px; */
+        .row {
+
+            width: 100%;
+            margin-left: 12px;
+
+            display: grid;
+            /* grid-template-columns:auto auto auto auto ; */
+            grid-template-columns: auto auto auto auto auto;
+            /* gap: 2px; */
+            row-gap: -4px;
+            /* column-gap: -10px; */
+            /* margin-left: -120px; */
+            /* gap: 2px; */
+
+            .col-sm {
+
+                width: 128px;
+                height: 80px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    /* padding: 10px; */
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 105px;
+            height: 95px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    /* Code for desc cards */
+
+    .cards-section {
+
+
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* row-gap: 10px; */
+
+
+
+        .card {
+
+            width: 320px;
+            height: 500px;
+            border: 2px solid;
+
+            .card-inner {
+
+
+                .car-model-name {
+                    padding-left: 5px;
+                }
+
+                .card-details {
+                    padding-left: 5px;
+                }
+
+                .card-image {
+
+                    width: 100%;
+                    height: 210px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        /* object-fit: cover; */
+                        padding: 50px;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .table {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: -10px;
+        margin-top: -12px;
+
+
+        .c-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+
+        .d-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .card-buttons {
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+
+            width: 132px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(70, 60, 47);
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+
+    .normal-button:hover {
+
+        background-color: aliceblue;
+        color: black;
+
+    }
+
+    .time-frame-button:hover {
+
+        background-color: rgb(105, 24, 24);
+        color: white;
+    }
+
+    .card:hover {
+
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .note {
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+@media (max-width:820) {
+    /* -----------Code for desk----------- */
+
+    .desk {
+
+
+
+        .desk-header {
+
+            background-color: white;
+            /* background-image:url(../images/pexels-hikaique-242125.jpg); */
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 90px;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            border-bottom: 0.10px solid;
+            display: flex;
+            justify-content: space-around;
+
+
+            a {
+
+                text-decoration: none;
+                color: black
+            }
+
+            .Logo {
+                font-family: sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+                margin-left: 0px;
+            }
+
+
+            nav {
+
+                /* width: ; */
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                /* margin-top: 70px; */
+                /* padding-top: 20px; */
+
+                .desk-button {
+
+                    background-color: transparent;
+                    border: none;
+                    /* width: 30px; */
+                    font-size: 8px;
+                    height: 30px;
+                    /* font-weight: bolder; */
+                    margin-left: -10px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+
+
+                .desk-button:hover {
+
+                    border-top: 1px solid;
+                    border-bottom: 1px solid;
+                    background-color: black;
+                    color: white;
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .desc-main {
+
+        margin-top: 0px;
+
+
+        /* code for desc carousel */
+
+
+        .desc-carousel {
+
+            width: 100%;
+            /* height: 720px; */
+            overflow: hidden;
+
+
+
+            .carousel-inner {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+    }
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -320px;
+
+        /* margin: auto; */
+        /* width: 360px; */
+        /* margin-left: 150px; */
+        .row {
+
+            width: 100%;
+            margin-left: 12px;
+
+            display: grid;
+            /* grid-template-columns:auto auto auto auto ; */
+            grid-template-columns: auto auto auto auto;
+            /* gap: 2px; */
+            row-gap: -2px;
+            /* column-gap: -10px; */
+            /* margin-left: -120px; */
+            /* gap: 2px; */
+
+            .col-sm {
+
+                width: 100px;
+                height: 80px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    /* padding: 10px; */
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 105px;
+            height: 95px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    /* Code for desc cards */
+
+    .cards-section {
+
+
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* row-gap: 10px; */
+
+
+
+        .card {
+
+            width: 320px;
+            height: 500px;
+            border: 2px solid;
+
+            .card-inner {
+
+
+                .car-model-name {
+                    padding-left: 5px;
+                }
+
+                .card-details {
+                    padding-left: 5px;
+                }
+
+                .card-image {
+
+                    width: 100%;
+                    height: 210px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        /* object-fit: cover; */
+                        padding: 50px;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .table {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: -10px;
+        margin-top: -12px;
+
+
+        .c-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+
+        .d-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .card-buttons {
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+
+            width: 132px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(70, 60, 47);
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+
+    .normal-button:hover {
+
+        background-color: aliceblue;
+        color: black;
+
+    }
+
+    .time-frame-button:hover {
+
+        background-color: rgb(105, 24, 24);
+        color: white;
+    }
+
+    .card:hover {
+
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .note {
+        font-size: 12px;
+    }
+
+
+
+
+
+}
+
+@media (max-width:770px) {
+    .desk {
+
+
+
+        .desk-header {
+
+            background-color: white;
+            /* background-image:url(../images/pexels-hikaique-242125.jpg); */
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 90px;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            border-bottom: 0.10px solid;
+            display: flex;
+            justify-content: space-around;
+
+
+            a {
+
+                text-decoration: none;
+                color: black
+            }
+
+            .Logo {
+                font-family: sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+                margin-left: 0px;
+            }
+
+
+            nav {
+
+                /* width: ; */
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                /* margin-top: 70px; */
+                /* padding-top: 20px; */
+
+                .desk-button {
+
+                    background-color: transparent;
+                    border: none;
+                    /* width: 30px; */
+                    font-size: 8px;
+                    height: 30px;
+                    /* font-weight: bolder; */
+                    margin-left: -10px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+
+
+                .desk-button:hover {
+
+                    border-top: 1px solid;
+                    border-bottom: 1px solid;
+                    background-color: black;
+                    color: white;
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .desc-main {
+
+        margin-top: 0px;
+
+
+        /* code for desc carousel */
+
+
+        .desc-carousel {
+
+            width: 100%;
+            /* height: 720px; */
+            overflow: hidden;
+
+
+
+            .carousel-inner {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+    }
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -180px;
+
+        /* margin: auto; */
+        /* width: 360px; */
+        /* margin-left: 150px; */
+        .row {
+
+            width: 100%;
+            /* margin-left: -10px; */
+
+            display: grid;
+            /* grid-template-columns:auto auto auto auto ; */
+            grid-template-columns: auto auto auto auto;
+            /* gap: 2px; */
+            row-gap: -2px;
+            /* column-gap: -10px; */
+            /* margin-left: -120px; */
+            /* gap: 2px; */
+
+            .col-sm {
+
+                width: 120px;
+                height: 90px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    /* padding: 10px; */
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 105px;
+            height: 95px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    /* Code for desc cards */
+
+    .cards-section {
+
+
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* row-gap: 10px; */
+
+
+
+        .card {
+
+            width: 320px;
+            height: 500px;
+            border: 2px solid;
+
+            .card-inner {
+
+
+                .car-model-name {
+                    padding-left: 5px;
+                }
+
+                .card-details {
+                    padding-left: 5px;
+                }
+
+                .card-image {
+
+                    width: 100%;
+                    height: 210px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        /* object-fit: cover; */
+                        padding: 50px;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .table {
+        /* width: 300px; */
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: -10px;
+        margin-top: -12px;
+
+
+        .c-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+
+        .d-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .card-buttons {
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+
+            width: 132px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(70, 60, 47);
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+
+    .normal-button:hover {
+
+        background-color: aliceblue;
+        color: black;
+
+    }
+
+    .time-frame-button:hover {
+
+        background-color: rgb(105, 24, 24);
+        color: white;
+    }
+
+    .card:hover {
+
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .note {
+        font-size: 12px;
+    }
+
+
+
+
+
+}
+
+@media (max-width:680px) {
+    .desk {
+
+
+
+        .desk-header {
+
+            background-color: white;
+            /* background-image:url(../images/pexels-hikaique-242125.jpg); */
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 90px;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            border-bottom: 0.10px solid;
+            display: flex;
+            justify-content: space-around;
+
+
+            a {
+
+                text-decoration: none;
+                color: black
+            }
+
+            .Logo {
+                font-family: sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+                margin-left: 0px;
+            }
+
+
+            nav {
+
+                /* width: ; */
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                /* margin-top: 70px; */
+                /* padding-top: 20px; */
+
+                .desk-button {
+
+                    background-color: transparent;
+                    border: none;
+                    /* width: 30px; */
+                    font-size: 8px;
+                    height: 30px;
+                    /* font-weight: bolder; */
+                    margin-left: -10px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+
+                .desk-button:hover {
+
+                    border-top: 1px solid;
+                    border-bottom: 1px solid;
+                    background-color: black;
+                    color: white;
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .desc-main {
+
+        margin-top: 0px;
+
+
+        /* code for desc carousel */
+
+
+        .desc-carousel {
+
+            width: 100%;
+            /* height: 720px; */
+            overflow: hidden;
+
+
+
+            .carousel-inner {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+    }
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -440px;
+
+        /* margin: auto; */
+        /* width: 360px; */
+        /* margin-left: 150px; */
+        .row {
+
+            width: 100%;
+            /* margin-left: -10px; */
+
+            display: grid;
+            /* grid-template-columns:auto auto auto auto ; */
+            grid-template-columns: auto auto auto auto;
+            /* gap: 2px; */
+            row-gap: -2px;
+
+            .col-sm {
+
+                width: 120px;
+                height: 90px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    /* padding: 10px; */
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 105px;
+            height: 95px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    /* Code for desc cards */
+
+    .cards-section {
+
+
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* row-gap: 10px; */
+
+
+
+        .card {
+
+            width: 320px;
+            height: 500px;
+            border: 2px solid;
+
+            .card-inner {
+
+
+                .car-model-name {
+                    padding-left: 5px;
+                }
+
+                .card-details {
+                    padding-left: 5px;
+                }
+
+                .card-image {
+
+                    width: 100%;
+                    height: 210px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        /* object-fit: cover; */
+                        padding: 50px;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .table {
+        /* width: 300px; */
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: -10px;
+        margin-top: -12px;
+
+
+        .c-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+
+        .d-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .card-buttons {
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+
+            width: 132px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(70, 60, 47);
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+
+    .normal-button:hover {
+
+        background-color: aliceblue;
+        color: black;
+
+    }
+
+    .time-frame-button:hover {
+
+        background-color: rgb(105, 24, 24);
+        color: white;
+    }
+
+    .card:hover {
+
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .note {
+        font-size: 12px;
+    }
+
+
+
+
+
+}
+
+
+
+@media (max-width:630px) {
+
+
+    .desk {
+
+
+
+        .desk-header {
+
+            background-color: white;
+            /* background-image:url(../images/pexels-hikaique-242125.jpg); */
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 90px;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            border-bottom: 0.10px solid;
+            display: flex;
+            justify-content: space-around;
+
+
+            a {
+
+                text-decoration: none;
+                color: black
+            }
+
+            .Logo {
+                font-family: sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+                margin-left: 0px;
+            }
+
+
+            nav {
+
+                /* width: ; */
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                /* margin-top: 70px; */
+                /* padding-top: 20px; */
+
+                .desk-button {
+
+                    background-color: transparent;
+                    border: none;
+                    /* width: 30px; */
+                    font-size: 8px;
+                    height: 30px;
+                    /* font-weight: bolder; */
+                    margin-left: -10px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+
+                .desk-button:hover {
+
+                    border-top: 1px solid;
+                    border-bottom: 1px solid;
+                    background-color: black;
+                    color: white;
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .desc-main {
+
+        margin-top: 0px;
+
+
+        /* code for desc carousel */
+
+
+        .desc-carousel {
+
+            width: 100%;
+            /* height: 720px; */
+            overflow: hidden;
+
+
+
+            .carousel-inner {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+    }
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -280px;
+
+        /* margin: auto; */
+        /* width: 360px; */
+        /* margin-left: 150px; */
+        .row {
+
+            width: 100%;
+            /* margin-left: -10px; */
+
+            display: grid;
+            /* grid-template-columns:auto auto auto auto ; */
+            grid-template-columns: auto auto auto auto;
+            /* gap: 2px; */
+            row-gap: -2px;
+            /* column-gap: -10px; */
+            /* margin-left: -120px; */
+            /* gap: 2px; */
+
+            .col-sm {
+
+                width: 120px;
+                height: 90px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    /* padding: 10px; */
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 128px;
+            height: 95px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    /* Code for desc cards */
+
+    .cards-section {
+
+
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* row-gap: 10px; */
+
+
+
+        .card {
+
+            width: 320px;
+            height: 500px;
+            border: 2px solid;
+
+            .card-inner {
+
+
+                .car-model-name {
+                    padding-left: 5px;
+                }
+
+                .card-details {
+                    padding-left: 5px;
+                }
+
+                .card-image {
+
+                    width: 100%;
+                    height: 210px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        /* object-fit: cover; */
+                        padding: 50px;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .table {
+        /* width: 300px; */
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: -10px;
+        margin-top: -12px;
+
+
+        .c-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+
+        .d-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .card-buttons {
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+
+            width: 132px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(70, 60, 47);
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+
+    .normal-button:hover {
+
+        background-color: aliceblue;
+        color: black;
+
+    }
+
+    .time-frame-button:hover {
+
+        background-color: rgb(105, 24, 24);
+        color: white;
+    }
+
+    .card:hover {
+
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .note {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:590px) {
+    .index {
+
+      
+
+
+    
+
+    /* code for navigation buttons */
+    header {
+
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        background-color: white;
+
+
+
+        .navigation {
+            /* right: 0px;
+            position: absolute; */
+            display: flex;
+            justify-content: center;
+            margin-right: 25px;
+
+            div {
+
+                margin-top: 20px;
+                margin-left: 46px;
+                margin-right: 20px;
+                height: 40px;
+                /* width: 80px; */
+
+
+                button {
+                    padding-top: 2px;
+                    width: 20px;
+                    height: 35px;
+
+                    background-color: transparent;
+                    /* Used for removing background for the button*/
+                    border: none;
+                    color: rgb(13, 13, 13);
+                    font-size: 10px;
+                    font-family: sans-serif;
+                    font-weight: bold;
+
+                }
+
+            }
+
+
+            button:hover {
+
+                width: 100%;
+                border-top: 0.10px rgb(12, 12, 12) solid;
+                border-bottom: 0.10px rgb(13, 13, 13) solid;
+                /* background-color: black; */
+                transition-duration: 0.10ms;
+
+
+
+            }
+
+            #d:hover {
+
+                background-color: rgb(14, 13, 9);
+                border: 1px solid;
+                color: white;
+
+                width: 16px;
+                height: 35px;
+            }
+
+        }
+
+    }
+}
+
+    .index-main {
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; */
+        /* margin: auto; */
+
+
+
+        h2 {
+            padding-top: 160px;
+            padding-left: 40px;
+
+
+
+
+            .brand {
+                color: transparent;
+                font-size: 2.40em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: bold;
+
+            }
+
+            .caption-line {
+
+                color: transparent;
+                font-size: 14px;
+                padding-top: 5px;
+                padding-left: 40px;
+
+
+            }
+
+            .caption-inline {
+
+                display: flex;
+                width: 100px;
+                justify-content: space-evenly;
+                padding-top: 10px;
+
+
+            }
+
+        }
+
+
+
+    }
+
+    .home-buttons {
+
+
+        margin-top: 30px;
+
+        div {
+
+            width: 300px;
+            display: flex;
+            justify-content: space-around;
+
+            button {
+
+                width: 140px;
+                height: 40px;
+                font-size: 12px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+        }
+
+    }
+
+
+    .desk {
+
+
+
+        .desk-header {
+
+            background-color: white;
+            /* background-image:url(../images/pexels-hikaique-242125.jpg); */
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 90px;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            border-bottom: 0.10px solid;
+            display: flex;
+            justify-content: space-around;
+
+
+            a {
+
+                text-decoration: none;
+                color: black
+            }
+
+            .Logo {
+                font-family: sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+                margin-left: 0px;
+            }
+
+
+            nav {
+
+                /* width: ; */
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                /* margin-top: 70px; */
+                /* padding-top: 20px; */
+
+                .desk-button {
+
+                    background-color: transparent;
+                    border: none;
+                    /* width: 30px; */
+                    font-size: 8px;
+                    height: 30px;
+                    /* font-weight: bolder; */
+                    margin-left: -10px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+
+                .desk-button:hover {
+
+                    border-top: 1px solid;
+                    border-bottom: 1px solid;
+                    background-color: black;
+                    color: white;
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .desc-main {
+
+        margin-top: 90px;
+
+
+        /* code for desc carousel */
+
+
+        .desc-carousel {
+
+            width: 100%;
+            /* height: 720px; */
+            overflow: hidden;
+
+
+
+            .carousel-inner {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+    }
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -495px;
+
+        /* margin: auto; */
+        /* width: 360px; */
+        /* margin-left: 150px; */
+        .row {
+
+            width: 100%;
+            /* margin-left: -10px; */
+
+            display: grid;
+            /* grid-template-columns:auto auto auto auto ; */
+            grid-template-columns: auto auto auto auto;
+            /* gap: 2px; */
+            row-gap: -2px;
+            /* column-gap: -10px; */
+            /* margin-left: -120px; */
+            /* gap: 2px; */
+
+            .col-sm {
+
+                width: 120px;
+                height: 90px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    /* padding: 10px; */
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 110px;
+            height: 85px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    /* Code for desc cards */
+
+    .cards-section {
+
+
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* row-gap: 10px; */
+
+
+
+        .card {
+
+            width: 320px;
+            height: 500px;
+            border: 2px solid;
+
+            .card-inner {
+
+
+                .car-model-name {
+                    padding-left: 5px;
+                }
+
+                .card-details {
+                    padding-left: 5px;
+                }
+
+                .card-image {
+
+                    width: 100%;
+                    height: 210px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        /* object-fit: cover; */
+                        padding: 50px;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .table {
+        /* width: 300px; */
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: -10px;
+        margin-top: -12px;
+
+
+        .c-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+
+        .d-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .card-buttons {
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+
+            width: 132px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(70, 60, 47);
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+
+    .normal-button:hover {
+
+        background-color: aliceblue;
+        color: black;
+
+    }
+
+    .time-frame-button:hover {
+
+        background-color: rgb(105, 24, 24);
+        color: white;
+    }
+
+    .card:hover {
+
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .note {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+}
+
+
+@media (max-width:556px) {
+
+
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -470px;
+
+        /* margin: auto; */
+        /* width: 360px; */
+        margin-left: -1px;
+
+        .row {
+
+            width: 100%;
+            /* margin-left: -10px; */
+
+            display: grid;
+            /* grid-template-columns:auto auto auto auto ; */
+            grid-template-columns: auto auto auto;
+            /* gap: 2px; */
+            row-gap: -2px;
+            /* column-gap: -10px; */
+            /* margin-left: -120px; */
+            /* gap: 2px; */
+
+            .col-sm {
+
+                width: 130px;
+                height: 90px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    padding: -20px;
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 136px;
+            height: 96px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+
+
+
+
+}
+
+@media (max-width:454px) {
+
+
+
+    .container {
+
+        margin-top: -560px;
+
+        .row {
+
+            width: 100%;
+            /* margin-left: -10px; */
+            display: grid;
+            grid-template-columns: auto auto auto;
+
+            row-gap: none;
+
+            .col-sm {
+
+                width: 105px;
+                height: 90px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    /* padding: 10px; */
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 90px;
+            height: 80px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    .Login-body {
+
+        /* background-image: url(../images/Login_background.jpg); */
+        /* background-color:  rgb(174, 158, 156); */
+        background-image: url(../images/pexels-mayday-1545743.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+
+        /* Code for login form */
+
+        section {
+
+            width: 340px;
+            height: 500px;
+            margin-top: -190px;
+
+            .Login-division {
+
+                margin-left: 20px;
+                position: relative;
+
+
+
+                .profile {
+
+                    width: 40px;
+                    margin-top: 30px;
+                    height: 40px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    position: absolute;
+                    top: 0;
+                    margin-left: 100px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+
+
+
+                }
+
+
+
+                .blank {
+
+                    width: 240px;
+                    height: 30px;
+                    border-radius: 2em;
+                    border: 1px solid;
+                    font-size: 9px;
+                    margin-left: 0px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+                }
+
+                .submit {
+
+                    width: 260px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 10px;
+
+
+                    button {
+
+                        width: 120px;
+                        height: 40px;
+                        font-size: 10px;
+                        border-radius: 60px;
+                        background-color: white;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    }
+
+
+                    #Login-button:hover {
+
+                        background-color: rgb(54, 54, 68);
+                        color: white;
+
+                    }
+
+                    #Register-button:hover {
+
+                        background-color: rgb(92, 118, 125);
+                        color: white;
+
+                    }
+
+                }
+
+
+
+            }
+
+        }
+    }
+
+
+}
+
+
+@media (max-width:420) {
+    .desk {
+
+
+
+        .desk-header {
+
+            background-color: white;
+            /* background-image:url(../images/pexels-hikaique-242125.jpg); */
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 90px;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            border-bottom: 0.10px solid;
+            display: flex;
+            justify-content: space-around;
+
+
+            a {
+
+                text-decoration: none;
+                color: black
+            }
+
+            .Logo {
+                font-family: sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+                margin-left: 0px;
+            }
+
+
+            nav {
+
+                /* width: ; */
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                /* margin-top: 70px; */
+                /* padding-top: 20px; */
+
+                .desk-button {
+
+                    background-color: transparent;
+                    border: none;
+                    /* width: 30px; */
+                    font-size: 8px;
+                    height: 30px;
+                    /* font-weight: bolder; */
+                    margin-left: -10px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+
+                .desk-button:hover {
+
+                    border-top: 1px solid;
+                    border-bottom: 1px solid;
+                    background-color: black;
+                    color: white;
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .desc-main {
+
+        margin-top: 170px;
+
+
+        /* code for desc carousel */
+
+
+        .desc-carousel {
+
+            width: 100%;
+            /* height: 720px; */
+            overflow: hidden;
+
+
+
+            .carousel-inner {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+    }
+
+
+
+
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -890px;
+
+        .row {
+
+            width: 100%;
+
+
+            display: grid;
+
+            grid-template-columns: auto auto auto;
+
+            row-gap: -2px;
+
+
+            .col-sm {
+
+                width: 60px;
+                height: 70px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    padding: 20px;
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 50px;
+            height: 60px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    /* Code for desc cards */
+
+    .cards-section {
+
+
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* row-gap: 10px; */
+
+
+
+        .card {
+
+            width: 320px;
+            height: 500px;
+            border: 2px solid;
+
+            .card-inner {
+
+
+                .car-model-name {
+                    padding-left: 5px;
+                }
+
+                .card-details {
+                    padding-left: 5px;
+                }
+
+                .card-image {
+
+                    width: 100%;
+                    height: 210px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        /* object-fit: cover; */
+                        padding: 50px;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .table {
+        /* width: 300px; */
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: -10px;
+        margin-top: -12px;
+
+
+        .c-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+
+        .d-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .card-buttons {
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+
+            width: 132px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(70, 60, 47);
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+
+    .normal-button:hover {
+
+        background-color: aliceblue;
+        color: black;
+
+    }
+
+    .time-frame-button:hover {
+
+        background-color: rgb(105, 24, 24);
+        color: white;
+    }
+
+    .card:hover {
+
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .note {
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+@media (max-width:392) {
+
+    .desk {
+
+
+
+        .desk-header {
+
+            background-color: white;
+            /* background-image:url(../images/pexels-hikaique-242125.jpg); */
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 90px;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            border-bottom: 0.10px solid;
+            display: flex;
+            justify-content: space-around;
+
+
+            a {
+
+                text-decoration: none;
+                color: black
+            }
+
+            .Logo {
+                font-family: sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+                margin-left: 0px;
+            }
+
+
+            nav {
+
+                /* width: ; */
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                /* margin-top: 70px; */
+                /* padding-top: 20px; */
+
+
+                .desk-button {
+
+                    background-color: transparent;
+                    border: none;
+                    /* width: 30px; */
+                    font-size: 8px;
+                    height: 30px;
+                    /* font-weight: bolder; */
+                    margin-left: -10px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+
+                .desk-button:hover {
+
+                    border-top: 1px solid;
+                    border-bottom: 1px solid;
+                    background-color: black;
+                    color: white;
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .desc-main {
+
+        margin-top: 0px;
+
+
+        /* code for desc carousel */
+
+
+        .desc-carousel {
+
+            width: 100%;
+            /* height: 720px; */
+            overflow: hidden;
+
+
+
+            .carousel-inner {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+    }
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -390px;
+
+        /* margin: auto; */
+        /* width: 360px; */
+        /* margin-left: 150px; */
+        .row {
+
+            width: 100%;
+            /* margin-left: -10px; */
+
+            display: grid;
+            /* grid-template-columns:auto auto auto auto ; */
+            grid-template-columns: auto auto auto auto;
+            /* gap: 2px; */
+            row-gap: -2px;
+            /* column-gap: -10px; */
+            /* margin-left: -120px; */
+            /* gap: 2px; */
+
+            .col-sm {
+
+                width: 35px;
+                height: 60px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    padding: -30px;
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 25px;
+            height: 50px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    /* Code for desc cards */
+
+    .cards-section {
+
+
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* row-gap: 10px; */
+
+
+
+        .card {
+
+            width: 320px;
+            height: 500px;
+            border: 2px solid;
+
+            .card-inner {
+
+
+                .car-model-name {
+                    padding-left: 5px;
+                }
+
+                .card-details {
+                    padding-left: 5px;
+                }
+
+                .card-image {
+
+                    width: 100%;
+                    height: 210px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        /* object-fit: cover; */
+                        padding: 50px;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .table {
+        /* width: 300px; */
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: -10px;
+        margin-top: -12px;
+
+
+        .c-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+
+        .d-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .card-buttons {
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+
+            width: 132px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(70, 60, 47);
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+
+    .normal-button:hover {
+
+        background-color: aliceblue;
+        color: black;
+
+    }
+
+    .time-frame-button:hover {
+
+        background-color: rgb(105, 24, 24);
+        color: white;
+    }
+
+    .card:hover {
+
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .note {
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+@media (max-width:362) {
+
+    .desk {
+
+
+
+        .desk-header {
+
+            background-color: white;
+            /* background-image:url(../images/pexels-hikaique-242125.jpg); */
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 90px;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            border-bottom: 0.10px solid;
+            display: flex;
+            justify-content: space-around;
+
+
+            a {
+
+                text-decoration: none;
+                color: black
+            }
+
+            .Logo {
+                font-family: sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+                margin-left: 0px;
+            }
+
+
+            nav {
+
+                /* width: ; */
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                /* margin-top: 70px; */
+                /* padding-top: 20px; */
+
+                .desk-button {
+
+                    background-color: transparent;
+                    border: none;
+                    /* width: 30px; */
+                    font-size: 8px;
+                    height: 30px;
+                    /* font-weight: bolder; */
+                    margin-left: -10px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+
+                .desk-button:hover {
+
+                    border-top: 1px solid;
+                    border-bottom: 1px solid;
+                    background-color: black;
+                    color: white;
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .desc-main {
+
+        margin-top: 0px;
+
+
+        /* code for desc carousel */
+
+
+        .desc-carousel {
+
+            width: 100%;
+            /* height: 720px; */
+            overflow: hidden;
+
+
+
+            .carousel-inner {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+    }
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -790px;
+
+        /* margin: auto; */
+        /* width: 360px; */
+        /* margin-left: 150px; */
+        .row {
+
+            width: 100%;
+            /* margin-left: -10px; */
+
+            display: grid;
+            grid-template-columns: auto auto;
+            row-gap: -2px;
+
+
+            .col-sm {
+
+                width: 30px;
+                height: 50px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    padding: -40px;
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 35px;
+            height: 55px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    /* Code for desc cards */
+
+    .cards-section {
+
+
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* row-gap: 10px; */
+
+
+
+        .card {
+
+            width: 320px;
+            height: 500px;
+            border: 2px solid;
+
+            .card-inner {
+
+
+                .car-model-name {
+                    padding-left: 5px;
+                }
+
+                .card-details {
+                    padding-left: 5px;
+                }
+
+                .card-image {
+
+                    width: 100%;
+                    height: 210px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        /* object-fit: cover; */
+                        padding: 50px;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .table {
+        /* width: 300px; */
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: -10px;
+        margin-top: -12px;
+
+
+        .c-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+
+        .d-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .card-buttons {
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+
+            width: 132px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(70, 60, 47);
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+
+    .normal-button:hover {
+
+        background-color: aliceblue;
+        color: black;
+
+    }
+
+    .time-frame-button:hover {
+
+        background-color: rgb(105, 24, 24);
+        color: white;
+    }
+
+    .card:hover {
+
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .note {
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+@media (max-width:352) {
+
+    .desk {
+
+
+
+        .desk-header {
+
+            background-color: white;
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 90px;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+            border-bottom: 0.10px solid;
+            display: flex;
+            justify-content: space-around;
+
+
+            a {
+
+                text-decoration: none;
+                color: black
+            }
+
+            .Logo {
+                font-family: sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+                margin-left: 0px;
+            }
+
+
+            nav {
+
+
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+
+
+                .desk-button {
+
+                    background-color: transparent;
+                    border: none;
+
+                    font-size: 8px;
+                    height: 30px;
+
+                    margin-left: -10px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+
+                .desk-button:hover {
+
+                    border-top: 1px solid;
+                    border-bottom: 1px solid;
+                    background-color: black;
+                    color: white;
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+
+    }
+
+
+    .desc-main {
+
+        margin-top: 0px;
+
+
+        /* code for desc carousel */
+
+
+        .desc-carousel {
+
+            width: 100%;
+            /* height: 720px; */
+            overflow: hidden;
+
+
+
+            .carousel-inner {
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+    }
+
+    /* Code for desc car brand logos */
+
+    .container {
+
+        margin-top: -990px;
+
+
+        .row {
+
+            width: 100%;
+
+
+            display: grid;
+
+            grid-template-columns: auto auto auto;
+
+            row-gap: -2px;
+
+
+            .col-sm {
+
+                width: 35px;
+                height: 60px;
+                border: 2px solid;
+                overflow: hidden;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    padding: -30px;
+                    object-fit: contain;
+                }
+            }
+
+
+
+
+        }
+
+
+
+        .col-sm:hover {
+
+            width: 40px;
+            height: 70px;
+            transition-duration: 0.20s;
+        }
+    }
+
+
+    /* Code for desc cards */
+
+    .cards-section {
+
+
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* row-gap: 10px; */
+
+
+
+        .card {
+
+            width: 320px;
+            height: 500px;
+            border: 2px solid;
+
+            .card-inner {
+
+
+                .car-model-name {
+                    padding-left: 5px;
+                }
+
+                .card-details {
+                    padding-left: 5px;
+                }
+
+                .card-image {
+
+                    width: 100%;
+                    height: 210px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        /* object-fit: cover; */
+                        padding: 50px;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+
+    .table {
+        /* width: 300px; */
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: -10px;
+        margin-top: -12px;
+
+
+        .c-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-left: 10px;
+        }
+
+        .d-element {
+            font-size: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .card-buttons {
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+
+            width: 132px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(70, 60, 47);
+            color: white;
+            font-size: 10px;
+        }
+    }
+
+
+    .normal-button:hover {
+
+        background-color: aliceblue;
+        color: black;
+
+    }
+
+    .time-frame-button:hover {
+
+        background-color: rgb(105, 24, 24);
+        color: white;
+    }
+
+    .card:hover {
+
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+
+    .note {
+        font-size: 12px;
+    }
+
+
+
+
+}
