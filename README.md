@@ -1,6 +1,6 @@
 # Car Importing Website
 
-This is a **static car importing website** built using **HTML**, **CSS**, and **Bootstrap**, version-controlled with **Git**. It provides a clean, responsive interface for users to explore imported cars from various companies and learn about their specifications and pricing.
+This is a **Static Car importing website** built using **HTML**, **CSS**, and **Bootstrap**, version-controlled with **Git**. It provides a clean, responsive interface for users to explore imported cars from various companies and learn about their specifications and pricing.
 
 ## Features
 
@@ -9,11 +9,6 @@ This is a **static car importing website** built using **HTML**, **CSS**, and **
 - **Responsive Company Grid**: Users can click on company blocks (e.g., BMW, Audi, Toyota) to view specific car models available under each brand.
 - **Clean Layout**: Built using **Bootstrap** for a responsive and mobile-friendly experience.
 
-## Technologies Used
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- Git for version control
 
 
