@@ -1,5 +1,5 @@
 A Static, Responsive car importing website built using HTML, CSS, and Bootstrap. 
-his site allows users to easily explore available car models from different companies, navigate between pages, and view car details and pricing through an intuitive UI.
+This site allows users to easily explore available car models from different companies, navigate between pages, and view car details and pricing through an intuitive UI.
  Features;
   Multi-page Navigation: Easily navigate between the Home, About, and Blog pages.
 
